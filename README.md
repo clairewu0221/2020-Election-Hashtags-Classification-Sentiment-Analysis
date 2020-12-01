@@ -11,6 +11,8 @@ abc
 
 
 # Sentiment Analysis
-123
+We want to understand how people feel about the top four hashtags we collected on Twitter by sentiment analysis. The hashtags are #Joe Biden, #Donald Trump, #2020election, and #vote.\
+sentiment_analysis.ipynb - open with jyupter notebook to see the process of our analysis using VADER
+
 
 
