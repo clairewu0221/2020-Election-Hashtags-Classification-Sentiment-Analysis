@@ -8,7 +8,8 @@ data_cleanning.py - input the output .csv file from data_scrap.py.The output csv
 combine_hashtags.py - input the output .csv file from data_cleanning.py. This step is to combine all the similar hashtags to a specific hashtag. The output csv file from combine_hashtags.py will be the input of the sentiment analysis.
 
 # Model
-abc
+For Classic models.py file, it contains four models which are Multinomial Naive Bayes model with Tf-idf vector or Word Count vector, Random Forest model with Tf-idf vector or Word count vector. Data is the 'combined_tags_final.csv'. Outputs are the metrics tables for models.\
+For LSTM.py file, it is used to train the LSTM model with 'combined_tags_final.csv'.
 
 
 # Sentiment Analysis
