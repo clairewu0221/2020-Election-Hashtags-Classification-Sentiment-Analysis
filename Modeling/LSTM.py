@@ -129,6 +129,7 @@ pre = res.idxmax(axis="columns")
 pre = pd.DataFrame(pre)
 temp = df.copy()
 temp['lstm_pred'] = None
+joebiden_tags = list(pre[pre['tag']==1468].index)
 election_tags = list(pre[pre['tag']==8].index)
 giveaway_tags = list(pre[pre['tag']==1145].index)
 coronavirus_tags = list(pre[pre['tag']==624].index)
